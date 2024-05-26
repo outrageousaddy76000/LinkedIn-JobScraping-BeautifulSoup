@@ -1,18 +1,17 @@
-Job Scraper Script
-Overview
+#Job Scraper Script
+
+##Overview
+
 This script is designed to scrape job postings from LinkedIn based on user-provided job titles and save the extracted data to CSV files. Each job title results in a separate CSV file containing job details such as job title, company name, and job description.
 
-Prerequisites
+##Prerequisites
 Before running the script, ensure you have the following Python libraries installed:
 
-requests
-pandas
-beautifulsoup4
-lxml
+-requests
+-pandas
+-beautifulsoup4
+-lxml
 You can install these dependencies using the following command:
-
-sh
-Copy code
 pip install requests pandas beautifulsoup4 lxml
 How to Use
 Input the Number of Job Titles:
